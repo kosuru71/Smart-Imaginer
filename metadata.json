@@ -1,0 +1,5 @@
+{
+  "name": "SmartImaginer",
+  "description": "An intuitive web application that allows users to upload an image and edit it using simple text prompts, powered by the Gemini 2.5 Flash Image model. Describe your desired change, and the AI will generate the edited image.",
+  "requestFramePermissions": []
+}
