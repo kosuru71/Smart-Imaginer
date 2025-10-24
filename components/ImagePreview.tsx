@@ -49,8 +49,9 @@ export const ImagePreview: React.FC<ImagePreviewProps> = ({ title, imageUrl, isL
                             e.stopPropagation();
                             onRemove();
                         }}
-                        className="p-2 bg-red-600/80 text-white rounded-full hover:bg-red-700 transition-colors backdrop-blur-sm"
+                        className="p-2 bg-red-600/80 text-white rounded-full hover:bg-red-700 transition-colors backdrop-blur-sm disabled:bg-gray-500 disabled:opacity-50 disabled:cursor-not-allowed"
                         aria-label="Remove original image"
+                        disabled={isLoading}
                     >
                         <TrashIcon className="w-6 h-6"/>
                     </button>

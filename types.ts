@@ -11,3 +11,8 @@ export interface HistoryEntry {
 }
 
 export type AspectRatio = '1:1' | '16:9' | '9:16';
+
+export interface GeminiImageResponse {
+  base64: string;
+  mimeType: string;
+}
